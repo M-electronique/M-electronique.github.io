@@ -15,7 +15,7 @@ body{
 		background-color: #fff;
 		position: sticky;
 		top: 0;
-		background-image: url("file:///C:/Users/PC%20MARKET/Downloads/Image%20de%20font.jpeg");
+		background-image: url("");
 	}  
 
 
@@ -63,7 +63,7 @@ body{
 
 	}  
 	#achats{
-		color: #F4FEFE;
+		color: #940794;
 	}
 	#call{
 		color:  #7ba448 ;
@@ -113,6 +113,6 @@ body{
 
 	@media screen and (max-width: 650px) {
 		nav .onglets .link{
-			display:none;
+		display:none;
 		}
  
