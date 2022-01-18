@@ -88,6 +88,10 @@ body{
 		box-shadow: 0 0 65px;
 		transition: all .3s;
 }
+
+#T-logo{
+    text-decoration: none;
+}
 	/* fin de la barre de navigation*/
 
     /*corps du site*/
