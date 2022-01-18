@@ -95,6 +95,11 @@ body{
    #T-logo{
 	   text-decoration: none;
    }
+
+  #log{
+	  color: azure;
+	  font-family: 'Neonderthaw', 'cursive' '2rem';
+  }
 	/* fin de la barre de navigation*/
 
 
