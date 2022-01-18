@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+body{
+	font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0px;
+    padding: 0px;
+	}
+    
+	/* barre de navigation */
+	nav{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 20px;
+		background-color: #fff;
+		position: sticky;
+		top: 0;
+		background-image: url("file:///C:/Users/PC%20MARKET/Downloads/Image%20de%20font.jpeg");
+	}  
+
+
+	nav h1{
+		font-size: 20px;
+		color:  #87CEEB;
+
+	}
+	nav .onglets{
+		display: flex;
+		flex-wrap: wrap;
+
+
+
+
+
+	}
+	nav .onglets p{
+		font-size: 13px;
+		margin-right: 12px;
+		cursor: pointer;
+		color:  #e5e1e6;
+		text-transform: uppercase;
+
+
+
+	}
+	.onglets :hover{ box-shadow: 0 0 60px -5px  #4ec3e0; }
+	nav .onglets input{
+		margin: 8px 20px;
+		padding: 15px;
+		border-radius: 30px;
+		border:none;
+		outline: none;
+		background-color: #f2f2f2;
+
+
+
+	}
+
+	#heart{
+		color: #ff4901;
+
+
+
+	}  
+	#achats{
+		color: #F4FEFE;
+	}
+	#call{
+		color:  #7ba448 ;
+	}
+	#account{
+		color: #6600ff;
+	}
+	.link{
+		background-color: black;
+		text-decoration: none;
+		letter-spacing: 1px;
+		border-radius: 20px;
+		padding: 7px;
+		box-shadow: 0 0 65px;
+		transition: all .3s;
+}
+	/* fin de la barre de navigation*/
+
+
+	
+	/* pied de page */
+	footer{
+		margin-top: 100px;
+		background-color: #000;
+		color: #fff;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between;
+		padding: 30px;
+
+	}
+	footer .social-media{
+		display:flex;
+
+
+	}
+	footer .social-media p{
+		margin-right: 15px;
+		border:1px solid #fff;
+		border-radius: 100%;
+		padding:5px;
+		text-align: center;
+		width: 20px;
+		cursor: pointer;
+	}
+	/* Fin du pied de la page */
+
+	@media screen and (max-width: 650px) {
+		nav .onglets .link{
+			display:none;
+		}
+ 
