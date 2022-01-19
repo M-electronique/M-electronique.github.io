@@ -97,6 +97,10 @@ body{
     color: azure;
     font-family: 'Neonderthaw', 'cursive' '2rem';
 }
+#deco{
+    Test-décoration: none;
+
+}
 	/* fin de la barre de navigation*/
 
     /*corps du site*/
