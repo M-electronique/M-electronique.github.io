@@ -137,6 +137,10 @@ body{
 		width: 20px;
 		cursor: pointer;
 	}
+
+	#num{
+		text-decoration: none;
+	}
 	/* Fin du pied de la page */
 
 	@media screen and (max-width: 650px) {
@@ -144,3 +148,4 @@ body{
 			display:none;
 		}
  
+
