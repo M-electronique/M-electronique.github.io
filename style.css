@@ -1,151 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
-body{
-	font-family: 'Mochiy Pop P One', sans-serif;
-    margin: 0px;
-    padding: 0px;
-	}
-    
-	/* barre de navigation */
-	nav{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		padding: 20px;
-		background-color: #fff;
-		position: sticky;
-		top: 0;
-		background-image: url("https://www.tacook.com/fileadmin/13_blog/hero/blog_hero_precision-maintenance-value-proposition.jpg");
-	}  
-
-
-	nav h1{
-		font-size: 20px;
-		color:  #87CEEB;
-		32
-
-
-
-	}
-	nav .onglets{
-		display: flex;
-		flex-wrap: wrap;
-
-
-
-
-
-	}
-	nav .onglets p{
-		font-size: 13px;
-		margin-right: 12px;
-		cursor: pointer;
-		color:  #e5e1e6;
-		text-transform: uppercase;
-
-
-
-	}
-	.onglets :hover{ box-shadow: 0 0 60px -5px  #4ec3e0; }
-	nav .onglets input{
-		margin: 8px 20px;
-		padding: 15px;
-		border-radius: 30px;
-		border:none;
-		outline: none;
-		background-color: #f2f2f2;
-
-
-
-	}
-
-	#heart{
-		color: #ff4901;
-
-
-
-
-
-		
-
-
-	}  
-	#achats{
-		color: #940794;
-	}
-	#call{
-		color:  #7ba448 ;
-	}
-	#account{
-		color: #6600ff;
-	}
-	.link{
-		background-color: black;
-		text-decoration: none;
-		letter-spacing: 1px;
-		border-radius: 20px;
-		padding: 7px;
-		box-shadow: 0 0 65px;
-		transition: all .3s;
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+body {
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-   #liens{
-	   text-decoration: none;
-   }
 
-   #T-logo{
-	   text-decoration: none;
-   }
+/* barre de navigation */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  position: h;
+  top: 0;
+  background-image: url("https://www.tacook.com/fileadmin/13_blog/hero/blog_hero_precision-maintenance-value-proposition.jpg");
+}
 
-  #log{
-	  color: azure;
-	  font-family: 'Neonderthaw', 'cursive' '2rem';
+nav h1 {
+  font-size: 20px;
+  color: #87ceeb;
+}
+nav .onglets {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav .onglets p {
+  font-size: 13px;
+  margin-right: 12px;
+  cursor: pointer;
+  color: #e5e1e6;
+  text-transform: uppercase;
+}
+.onglets :hover {
+  box-shadow: 0 0 60px -5px #4ec3e0;
+}
+nav .onglets input {
+  margin: 8px 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+}
+
+#heart {
+  color: #ff4901;
+}
+#achats {
+  color: #940794;
+}
+#call {
+  color: #7ba448;
+}
+#account {
+  color: #6600ff;
+}
+.link {
+  background-color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 7px;
+  box-shadow: 0 0 65px;
+  transition: all 0.3s;
+}
+#liens {
+  text-decoration: none;
+}
+
+#T-logo {
+  text-decoration: none;
+}
+
+#log {
+  color: azure;
+  font-family: "Neonderthaw", "cursive" "2rem";
+}
+
+.lie {
+  text-decoration: none;
+}
+
+#pied {
+  text-decoration: none;
+}
+/* fin de la barre de navigation*/
+
+/* pied de page */
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+footer .social-media {
+  display: flex;
+}
+footer .social-media p {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  width: 20px;
+  cursor: pointer;
+}
+/* Fin du pied de la page */
+
+@media screen and (max-width: 650px) {
+  nav .onglets .link {
+    display: none;
   }
-
-    .lie{
-          text-decoration: none;
 }
-
-   #pied{
-          text-decoration: none; 
-}  
-	/* fin de la barre de navigation*/
-
-
-	
-	/* pied de page */
-	footer{
-		margin-top: 100px;
-		background-color: #000;
-		color: #fff;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content:space-between;
-		padding: 30px;
-
-	}
-	footer .social-media{
-		display:flex;
-
-
-	}
-	footer .social-media p{
-		margin-right: 15px;
-		border:1px solid #fff;
-		border-radius: 100%;
-		padding:5px;
+.dodo {
+  background: linear-gradient(45deg, #fc466b, #3f5efb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+}
+.connex_form{
+		background: rgba(255, 255, 255, .3);
+		padding: 5px;
+		height: auto;
+		border-radius: 20px;
+		border-left: 1px solid rgba(255, 255, 255, .3);
+		border-top: 1px solid rgba(255, 255, 255, .3);
+		box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
 		text-align: center;
-		width: 20px;
-		cursor: pointer;
 	}
-
-	#num{
-		text-decoration: none;
-	}
-	/* Fin du pied de la page */
-
-	@media screen and (max-width: 650px) {
-		nav .onglets .link{
-			display:none;
-		}
- 
-
+input {
+  background: transparent;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  margin-bottom: 2em;
+}
+::placeholder {
+  color: white;
+}
+input:hover,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+input[type="button"] {
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1rem;
+  width: 150px;
+}
