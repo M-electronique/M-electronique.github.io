@@ -4,7 +4,7 @@
     outline: none;
 
 }
-body{
+.dodo{
     background: linear-gradient(45deg, #fC466B,                       #3F5EFB);
     height: 100vh;
     display: flex;
@@ -92,7 +92,7 @@ input[type="button"] {
     border-left: 1px solid rgba( 255, 255, 255, .3) ;
     border-top: 1px solid rgba( 255, 255, 255, .3) ;
     border-radius: 10px;
-    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2)) ;
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2) ;
 }
 
 .drop-1 {
@@ -101,7 +101,6 @@ input[type="button"] {
     z-index: -1;
 }
 
-}
 
 .drop-3{
     height: 100px; width: 100px;
@@ -119,4 +118,3 @@ input[type="button"] {
     bottom: 170px; left: 90px;
     z-index: -1;
 }
-
